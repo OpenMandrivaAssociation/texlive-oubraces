@@ -1,3 +1,9 @@
+# revision 21833
+# category Package
+# catalog-ctan /macros/latex/contrib/oubraces
+# catalog-date 2011-03-25 11:24:40 +0100
+# catalog-license noinfo
+# catalog-version undef
 Name:		texlive-oubraces
 Version:	20110325
 Release:	1
@@ -38,6 +44,7 @@ the same formula.
 %{_texmfdistdir}/tex/latex/oubraces/oubraces.sty
 %doc %{_texmfdistdir}/doc/latex/oubraces/oubraces.pdf
 %doc %{_texmfdistdir}/doc/latex/oubraces/oubraces.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,3 +55,5 @@ the same formula.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
