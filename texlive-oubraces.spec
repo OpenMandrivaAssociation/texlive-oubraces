@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-oubraces
 Version:	20110325
-Release:	8
+Release:	9
 Summary:	Braces over and under a formula
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/oubraces
