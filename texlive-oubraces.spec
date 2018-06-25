@@ -5,7 +5,7 @@
 # catalog-license noinfo
 # catalog-version undef
 Name:		texlive-oubraces
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Braces over and under a formula
 Group:		Publishing
