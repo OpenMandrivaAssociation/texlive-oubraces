@@ -1,6 +1,6 @@
 Name:		texlive-oubraces
 Version:	21833
-Release:	1
+Release:	2
 Summary:	Braces over and under a formula
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/oubraces
