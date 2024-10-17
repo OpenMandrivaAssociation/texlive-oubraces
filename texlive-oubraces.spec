@@ -3,7 +3,7 @@ Version:	21833
 Release:	2
 Summary:	Braces over and under a formula
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/oubraces
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/oubraces
 License:	NOINFO
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/oubraces.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/oubraces.doc.r%{version}.tar.xz
